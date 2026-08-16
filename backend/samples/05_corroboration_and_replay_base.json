@@ -1,0 +1,14 @@
+[
+  {
+    "source": "nmap",
+    "timestamp": "2026-01-14T08:00:00Z",
+    "event_type": "port_scan",
+    "data": {"ip": "10.0.0.12", "port": 22, "status": "closed"}
+  },
+  {
+    "source": "powershell",
+    "timestamp": "2026-01-14T08:05:00Z",
+    "event_type": "process_alert",
+    "data": {"ip": "10.0.0.12", "port": 22, "status": "closed"}
+  }
+]

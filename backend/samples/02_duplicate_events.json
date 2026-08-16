@@ -1,0 +1,14 @@
+[
+  {
+    "source": "burp",
+    "timestamp": "2026-01-14T09:00:00Z",
+    "event_type": "url_scan",
+    "data": {"url": "http://internal.corp/login", "status": "malicious"}
+  },
+  {
+    "source": "burp",
+    "timestamp": "2026-01-14T09:00:00Z",
+    "event_type": "url_scan",
+    "data": {"url": "http://internal.corp/login", "status": "malicious"}
+  }
+]

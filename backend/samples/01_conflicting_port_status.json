@@ -1,0 +1,20 @@
+[
+  {
+    "source": "nmap",
+    "timestamp": "2026-01-14T13:20:00Z",
+    "event_type": "port_scan",
+    "data": {"ip": "10.0.0.5", "port": 445, "status": "closed"}
+  },
+  {
+    "source": "snort",
+    "timestamp": "2026-01-14T14:03:00Z",
+    "event_type": "port_alert",
+    "data": {"ip": "10.0.0.5", "port": 445, "status": "open"}
+  },
+  {
+    "source": "nmap",
+    "timestamp": "2026-01-14T14:05:00Z",
+    "event_type": "port_scan",
+    "data": {"ip": "10.0.0.5", "port": 445, "status": "open"}
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "source": "snort",
+    "timestamp": "2026-01-14T08:30:00Z",
+    "event_type": "port_alert",
+    "data": {"ip": "10.0.0.12", "port": 22, "status": "open"}
+  }
+]

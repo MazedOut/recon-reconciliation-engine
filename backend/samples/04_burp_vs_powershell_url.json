@@ -1,0 +1,14 @@
+[
+  {
+    "source": "powershell",
+    "timestamp": "2026-01-14T11:00:00Z",
+    "event_type": "url_check",
+    "data": {"url": "https://vendor-portal.example.com", "status": "benign"}
+  },
+  {
+    "source": "burp",
+    "timestamp": "2026-01-14T11:12:00Z",
+    "event_type": "url_scan",
+    "data": {"url": "https://vendor-portal.example.com", "status": "malicious"}
+  }
+]

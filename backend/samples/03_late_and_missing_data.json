@@ -1,0 +1,19 @@
+[
+  {
+    "source": "powershell",
+    "timestamp": "2026-01-14T02:00:00Z",
+    "event_type": "process_alert",
+    "data": {"ip": "10.0.0.9", "port": 3389, "status": "open"}
+  },
+  {
+    "source": "snort",
+    "event_type": "port_alert",
+    "data": {"ip": "10.0.0.9", "port": 3389, "status": "closed"}
+  },
+  {
+    "source": "nmap",
+    "timestamp": "not-a-valid-timestamp",
+    "event_type": "port_scan",
+    "data": {"ip": "10.0.0.9", "port": 3389, "status": "open"}
+  }
+]
